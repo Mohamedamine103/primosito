@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+ 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+
+  #container {
+   display:grid;
+   grid-template-areas:
+    'header header header header header'
+    'main main main right right'
+    'renu renu renu renu renu'
+    'fiat fiat fiat fiat fiat'
+    'ford ford ford ford ford'
+    'studio studio studio menu menu';
+ 
+ 
+ 
+}
+
+#renu {
+        grid-area: renu;
+        background-color: beige;
+    }
+    #fiat {
+        grid-area: fiat;
+        background-color: beige;
+    }
+    #ford {
+        grid-area: ford;
+        background-color: beige;
+    }
+ 
+ #titolo {
+        grid-area: header;
+        background-color: beige;
+    }
+    #main {
+        grid-area: main;
+        background-color:brown;
+        }
+        #right {
+        grid-area: right;
+        background-color: aqua;
+        }
+        #menu {
+        grid-area: menu;
+        background-color:purple;
+        }
+        #studio {
+        grid-area: studio;
+        background-color:red;
+        }
+        img {
+        width:250px;
+
+        }
+#titolo img {
+        width:400px;
+
+      }
+       @media screen and (max-width: 480px){
+          img {
+        width:30%;
+
+        }
+#titolo img {
+        width:70%;
+
+      }
+ }
+</style>
+</head>
+<body>
+<div id ="container">
+<div id= "titolo">
+<h1>AUTOCAR ITALIA</h1>
+<img src="https://www.grandprix.it/wp-content/uploads/2023/04/Pagani-Zonda-1024x576.jpg">
+ 
+<p>
+Creare un sito web con 5 div.
+Ogni div deve avere al suo interno 1 titolo (h1) un paragrafo con testo a piacere.
+Il primo div deve avere anche una immagine.
+Tutti i div sono racchiusi in un div con id = container.
+L’organizzazione del sito deve essere sviluppata tramite layout grid.
+</p>
+</div>
+<div id ="main">
+<h1>seconda pagina
+</h1>
+<p>
+ 
+ 
+Creare un sito web con 5 div.
+Ogni div deve avere al suo interno 1 titolo (h1) un paragrafo con testo a piacere.
+Il primo div deve avere anche una immagine.
+Tutti i div sono racchiusi in un div con id = container.
+L’organizzazione del sito deve essere sviluppata tramite layout grid.
+</p>
+</div>
+<div id ="right">
+<h1>tersa pagina
+</h1>
+<p>
+Creare un sito web con 5 div.
+Ogni div deve avere al suo interno 1 titolo (h1) un paragrafo con testo a piacere.
+Il primo div deve avere anche una immagine.
+Tutti i div sono racchiusi in un div con id = container.
+L’organizzazione del sito deve essere sviluppata tramite layout grid.
+</p>
+</div>
+<div id ="menu">
+<h1>quarta pagina
+</h1>
+<p>
+Creare un sito web con 5 div.
+Ogni div deve avere al suo interno 1 titolo (h1) un paragrafo con testo a piacere.
+Il primo div deve avere anche una immagine.
+Tutti i div sono racchiusi in un div con id = container.
+L’organizzazione del sito deve essere sviluppata tramite layout grid.
+</p>
+</div>
+<div id="studio">
+<h1>quinta pagina
+</h1>
+<p>
+Creare un sito web con 5 div.
+Ogni div deve avere al suo interno 1 titolo (h1) un paragrafo con testo a piacere.
+Il primo div deve avere anche una immagine.
+Tutti i div sono racchiusi in un div con id = container.
+L’organizzazione del sito deve essere sviluppata tramite layout grid.
+</p>
+</div>
+<div id= "renu">
+<h1>renault </h1>
+<img src="https://s3.eu-central-1.amazonaws.com/ascetic-dekra-dws/dws/files/gamma-images/X071BMVP2W3.jpg">
+ 
+<p>
+Creare un sito web con 5 div.
+Ogni div deve avere al suo interno 1 titolo (h1) un paragrafo con testo a piacere.
+Il primo div deve avere anche una immagine.
+Tutti i div sono racchiusi in un div con id = container.
+L’organizzazione del sito deve essere sviluppata tramite layout grid.
+</p>
+</div>
+<div id= "fiat">
+<h1>FIAT </h1>
+<img src="https://media.istockphoto.com/id/492426878/it/foto/fiat-500.jpg?s=612x612&w=0&k=20&c=i6J5QqZjdGRRl8B__Nuz2pLUeCTFzUpKwc6wgEZx13s=">
+ 
+<p>
+Creare un sito web con 5 div.
+Ogni div deve avere al suo interno 1 titolo (h1) un paragrafo con testo a piacere.
+Il primo div deve avere anche una immagine.
+Tutti i div sono racchiusi in un div con id = container.
+L’organizzazione del sito deve essere sviluppata tramite layout grid.
+</p>
+</div>
+<div id= "ford">
+<h1>FORD </h1>
+<img src="https://statics.quattroruote.it/content/dam/quattroruote/it/foto/2019/06/26/ford_puma_2019_/gallery/rsmall/2019-Ford-Puma-01.jpg">
+ 
+<p>
+Creare un sito web con 5 div.
+Ogni div deve avere al suo interno 1 titolo (h1) un paragrafo con testo a piacere.
+Il primo div deve avere anche una immagine.
+Tutti i div sono racchiusi in un div con id = container.
+L’organizzazione del sito deve essere sviluppata tramite layout grid.
+</p>
+</div>
+</div>
+ 
+</body>
+</html>
